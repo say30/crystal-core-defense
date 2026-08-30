@@ -1,0 +1,24 @@
+--!strict
+-- Mars Colony: exactly 7 standard blocks and 7 standard turrets.
+local ItemConfigurations = {
+
+	-- BLOCKS
+	RegolithBlock = { DisplayName = "Regolith Block", Type = "Blocks", Price = 3350, ImageId = "rbxassetid://REPLACE_05_MARS_COLONY_REGOLITHBLOCK_IMAGE_ID", ProductID = "REPLACE_05_MARS_COLONY_REGOLITHBLOCK_PRODUCT_ID", Unlimited = false, Chance = 100, StockAmount = { Min = 1, Max = 7 }, Health = 56250 },
+	HabitatPanelBlock = { DisplayName = "Habitat Panel Block", Type = "Blocks", Price = 6867, ImageId = "rbxassetid://REPLACE_05_MARS_COLONY_HABITATPANELBLOCK_IMAGE_ID", ProductID = "REPLACE_05_MARS_COLONY_HABITATPANELBLOCK_PRODUCT_ID", Unlimited = false, Chance = 80, StockAmount = { Min = 1, Max = 7 }, Health = 95625 },
+	TitaniumBlock = { DisplayName = "Titanium Block", Type = "Blocks", Price = 14077, ImageId = "rbxassetid://REPLACE_05_MARS_COLONY_TITANIUMBLOCK_IMAGE_ID", ProductID = "REPLACE_05_MARS_COLONY_TITANIUMBLOCK_PRODUCT_ID", Unlimited = false, Chance = 60, StockAmount = { Min = 1, Max = 7 }, Health = 135000 },
+	RadiationShieldBlock = { DisplayName = "Radiation Shield Block", Type = "Blocks", Price = 28857, ImageId = "rbxassetid://REPLACE_05_MARS_COLONY_RADIATIONSHIELDBLOCK_IMAGE_ID", ProductID = "REPLACE_05_MARS_COLONY_RADIATIONSHIELDBLOCK_PRODUCT_ID", Unlimited = false, Chance = 40, StockAmount = { Min = 1, Max = 7 }, Health = 174375 },
+	DomeArmorBlock = { DisplayName = "Dome Armor Block", Type = "Blocks", Price = 59158, ImageId = "rbxassetid://REPLACE_05_MARS_COLONY_DOMEARMORBLOCK_IMAGE_ID", ProductID = "REPLACE_05_MARS_COLONY_DOMEARMORBLOCK_PRODUCT_ID", Unlimited = false, Chance = 30, StockAmount = { Min = 1, Max = 7 }, Health = 213750 },
+	SolarAlloyBlock = { DisplayName = "Solar Alloy Block", Type = "Blocks", Price = 121273, ImageId = "rbxassetid://REPLACE_05_MARS_COLONY_SOLARALLOYBLOCK_IMAGE_ID", ProductID = "REPLACE_05_MARS_COLONY_SOLARALLOYBLOCK_PRODUCT_ID", Unlimited = false, Chance = 20, StockAmount = { Min = 1, Max = 7 }, Health = 253125 },
+	OlympusCoreBlock = { DisplayName = "Olympus Core Block", Type = "Blocks", Price = 248610, ImageId = "rbxassetid://REPLACE_05_MARS_COLONY_OLYMPUSCOREBLOCK_IMAGE_ID", ProductID = "REPLACE_05_MARS_COLONY_OLYMPUSCOREBLOCK_PRODUCT_ID", Unlimited = false, Chance = 10, StockAmount = { Min = 1, Max = 7 }, Health = 292500 },
+
+	-- TURRETS
+	RoverSentry = { DisplayName = "Rover Sentry", Type = "Turrets", Price = 26797, ImageId = "rbxassetid://REPLACE_05_MARS_COLONY_ROVERSENTRY_IMAGE_ID", ProductID = "REPLACE_05_MARS_COLONY_ROVERSENTRY_PRODUCT_ID", Unlimited = false, Chance = 100, StockAmount = { Min = 1, Max = 4 }, Damage = 45000, Range = 30, FireRate = 2, Health = 90000 },
+	DustRailTurret = { DisplayName = "Dust Rail Turret", Type = "Turrets", Price = 57613, ImageId = "rbxassetid://REPLACE_05_MARS_COLONY_DUSTRAILTURRET_IMAGE_ID", ProductID = "REPLACE_05_MARS_COLONY_DUSTRAILTURRET_PRODUCT_ID", Unlimited = false, Chance = 80, StockAmount = { Min = 1, Max = 4 }, Damage = 90000, Range = 32.5, FireRate = 1.88, Health = 139500 },
+	PlasmaDrillCannon = { DisplayName = "Plasma Drill Cannon", Type = "Turrets", Price = 123869, ImageId = "rbxassetid://REPLACE_05_MARS_COLONY_PLASMADRILLCANNON_IMAGE_ID", ProductID = "REPLACE_05_MARS_COLONY_PLASMADRILLCANNON_PRODUCT_ID", Unlimited = false, Chance = 60, StockAmount = { Min = 1, Max = 4 }, Damage = 157500, Range = 35, FireRate = 1.76, Health = 189000 },
+	ColonyMissilePod = { DisplayName = "Colony Missile Pod", Type = "Turrets", Price = 266318, ImageId = "rbxassetid://REPLACE_05_MARS_COLONY_COLONYMISSILEPOD_IMAGE_ID", ProductID = "REPLACE_05_MARS_COLONY_COLONYMISSILEPOD_PRODUCT_ID", Unlimited = false, Chance = 40, StockAmount = { Min = 1, Max = 4 }, Damage = 225000, Range = 37.5, FireRate = 1.64, Health = 238500 },
+	RadiationBeam = { DisplayName = "Radiation Beam", Type = "Turrets", Price = 572583, ImageId = "rbxassetid://REPLACE_05_MARS_COLONY_RADIATIONBEAM_IMAGE_ID", ProductID = "REPLACE_05_MARS_COLONY_RADIATIONBEAM_PRODUCT_ID", Unlimited = false, Chance = 30, StockAmount = { Min = 1, Max = 4 }, Damage = 360000, Range = 40, FireRate = 1.52, Health = 288000 },
+	SolarRailgun = { DisplayName = "Solar Railgun", Type = "Turrets", Price = 1231053, ImageId = "rbxassetid://REPLACE_05_MARS_COLONY_SOLARRAILGUN_IMAGE_ID", ProductID = "REPLACE_05_MARS_COLONY_SOLARRAILGUN_PRODUCT_ID", Unlimited = false, Chance = 20, StockAmount = { Min = 1, Max = 4 }, Damage = 630000, Range = 42.5, FireRate = 1.4, Health = 337500 },
+	OlympusDefenseArray = { DisplayName = "Olympus Defense Array", Type = "Turrets", Price = 2646765, ImageId = "rbxassetid://REPLACE_05_MARS_COLONY_OLYMPUSDEFENSEARRAY_IMAGE_ID", ProductID = "REPLACE_05_MARS_COLONY_OLYMPUSDEFENSEARRAY_PRODUCT_ID", Unlimited = false, Chance = 10, StockAmount = { Min = 1, Max = 4 }, Damage = 900000, Range = 45, FireRate = 1.28, Health = 387000 },
+}
+
+return ItemConfigurations

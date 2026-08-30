@@ -1,0 +1,24 @@
+--!strict
+-- Frozen Citadel: exactly 7 standard blocks and 7 standard turrets.
+local ItemConfigurations = {
+
+	-- BLOCKS
+	SnowpackBlock = { DisplayName = "Snowpack Block", Type = "Blocks", Price = 25, ImageId = "rbxassetid://REPLACE_01_FROZEN_CITADEL_SNOWPACKBLOCK_IMAGE_ID", ProductID = "REPLACE_01_FROZEN_CITADEL_SNOWPACKBLOCK_PRODUCT_ID", Unlimited = false, Chance = 100, StockAmount = { Min = 1, Max = 7 }, Health = 63 },
+	BlueIceBlock = { DisplayName = "Blue Ice Block", Type = "Blocks", Price = 51, ImageId = "rbxassetid://REPLACE_01_FROZEN_CITADEL_BLUEICEBLOCK_IMAGE_ID", ProductID = "REPLACE_01_FROZEN_CITADEL_BLUEICEBLOCK_PRODUCT_ID", Unlimited = false, Chance = 80, StockAmount = { Min = 1, Max = 7 }, Health = 106 },
+	FroststoneBlock = { DisplayName = "Froststone Block", Type = "Blocks", Price = 105, ImageId = "rbxassetid://REPLACE_01_FROZEN_CITADEL_FROSTSTONEBLOCK_IMAGE_ID", ProductID = "REPLACE_01_FROZEN_CITADEL_FROSTSTONEBLOCK_PRODUCT_ID", Unlimited = false, Chance = 60, StockAmount = { Min = 1, Max = 7 }, Health = 150 },
+	RimeplateBlock = { DisplayName = "Rimeplate Block", Type = "Blocks", Price = 215, ImageId = "rbxassetid://REPLACE_01_FROZEN_CITADEL_RIMEPLATEBLOCK_IMAGE_ID", ProductID = "REPLACE_01_FROZEN_CITADEL_RIMEPLATEBLOCK_PRODUCT_ID", Unlimited = false, Chance = 40, StockAmount = { Min = 1, Max = 7 }, Health = 194 },
+	GlacierBlock = { DisplayName = "Glacier Block", Type = "Blocks", Price = 442, ImageId = "rbxassetid://REPLACE_01_FROZEN_CITADEL_GLACIERBLOCK_IMAGE_ID", ProductID = "REPLACE_01_FROZEN_CITADEL_GLACIERBLOCK_PRODUCT_ID", Unlimited = false, Chance = 30, StockAmount = { Min = 1, Max = 7 }, Health = 238 },
+	RunicIceBlock = { DisplayName = "Runic Ice Block", Type = "Blocks", Price = 905, ImageId = "rbxassetid://REPLACE_01_FROZEN_CITADEL_RUNICICEBLOCK_IMAGE_ID", ProductID = "REPLACE_01_FROZEN_CITADEL_RUNICICEBLOCK_PRODUCT_ID", Unlimited = false, Chance = 20, StockAmount = { Min = 1, Max = 7 }, Health = 281 },
+	PermafrostCoreBlock = { DisplayName = "Permafrost Core Block", Type = "Blocks", Price = 1856, ImageId = "rbxassetid://REPLACE_01_FROZEN_CITADEL_PERMAFROSTCOREBLOCK_IMAGE_ID", ProductID = "REPLACE_01_FROZEN_CITADEL_PERMAFROSTCOREBLOCK_PRODUCT_ID", Unlimited = false, Chance = 10, StockAmount = { Min = 1, Max = 7 }, Health = 325 },
+
+	-- TURRETS
+	SnowboltTurret = { DisplayName = "Snowbolt Turret", Type = "Turrets", Price = 200, ImageId = "rbxassetid://REPLACE_01_FROZEN_CITADEL_SNOWBOLTTURRET_IMAGE_ID", ProductID = "REPLACE_01_FROZEN_CITADEL_SNOWBOLTTURRET_PRODUCT_ID", Unlimited = false, Chance = 100, StockAmount = { Min = 1, Max = 4 }, Damage = 50, Range = 30, FireRate = 2, Health = 100 },
+	IcicleRepeater = { DisplayName = "Icicle Repeater", Type = "Turrets", Price = 430, ImageId = "rbxassetid://REPLACE_01_FROZEN_CITADEL_ICICLEREPEATER_IMAGE_ID", ProductID = "REPLACE_01_FROZEN_CITADEL_ICICLEREPEATER_PRODUCT_ID", Unlimited = false, Chance = 80, StockAmount = { Min = 1, Max = 4 }, Damage = 100, Range = 32.5, FireRate = 1.88, Health = 155 },
+	FrostbiteCannon = { DisplayName = "Frostbite Cannon", Type = "Turrets", Price = 924, ImageId = "rbxassetid://REPLACE_01_FROZEN_CITADEL_FROSTBITECANNON_IMAGE_ID", ProductID = "REPLACE_01_FROZEN_CITADEL_FROSTBITECANNON_PRODUCT_ID", Unlimited = false, Chance = 60, StockAmount = { Min = 1, Max = 4 }, Damage = 175, Range = 35, FireRate = 1.76, Health = 210 },
+	HailstormBattery = { DisplayName = "Hailstorm Battery", Type = "Turrets", Price = 1988, ImageId = "rbxassetid://REPLACE_01_FROZEN_CITADEL_HAILSTORMBATTERY_IMAGE_ID", ProductID = "REPLACE_01_FROZEN_CITADEL_HAILSTORMBATTERY_PRODUCT_ID", Unlimited = false, Chance = 40, StockAmount = { Min = 1, Max = 4 }, Damage = 250, Range = 37.5, FireRate = 1.64, Health = 265 },
+	GlacierBallista = { DisplayName = "Glacier Ballista", Type = "Turrets", Price = 4274, ImageId = "rbxassetid://REPLACE_01_FROZEN_CITADEL_GLACIERBALLISTA_IMAGE_ID", ProductID = "REPLACE_01_FROZEN_CITADEL_GLACIERBALLISTA_PRODUCT_ID", Unlimited = false, Chance = 30, StockAmount = { Min = 1, Max = 4 }, Damage = 400, Range = 40, FireRate = 1.52, Health = 320 },
+	AuroraPrism = { DisplayName = "Aurora Prism", Type = "Turrets", Price = 9188, ImageId = "rbxassetid://REPLACE_01_FROZEN_CITADEL_AURORAPRISM_IMAGE_ID", ProductID = "REPLACE_01_FROZEN_CITADEL_AURORAPRISM_PRODUCT_ID", Unlimited = false, Chance = 20, StockAmount = { Min = 1, Max = 4 }, Damage = 700, Range = 42.5, FireRate = 1.4, Health = 375 },
+	AbsoluteZeroSpire = { DisplayName = "Absolute Zero Spire", Type = "Turrets", Price = 19754, ImageId = "rbxassetid://REPLACE_01_FROZEN_CITADEL_ABSOLUTEZEROSPIRE_IMAGE_ID", ProductID = "REPLACE_01_FROZEN_CITADEL_ABSOLUTEZEROSPIRE_PRODUCT_ID", Unlimited = false, Chance = 10, StockAmount = { Min = 1, Max = 4 }, Damage = 1000, Range = 45, FireRate = 1.28, Health = 430 },
+}
+
+return ItemConfigurations

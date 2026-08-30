@@ -1,0 +1,24 @@
+--!strict
+-- Alien World: exactly 7 standard blocks and 7 standard turrets.
+local ItemConfigurations = {
+
+	-- BLOCKS
+	SporewoodBlock = { DisplayName = "Sporewood Block", Type = "Blocks", Price = 1009, ImageId = "rbxassetid://REPLACE_04_ALIEN_WORLD_SPOREWOODBLOCK_IMAGE_ID", ProductID = "REPLACE_04_ALIEN_WORLD_SPOREWOODBLOCK_PRODUCT_ID", Unlimited = false, Chance = 100, StockAmount = { Min = 1, Max = 7 }, Health = 10625 },
+	ChitinBlock = { DisplayName = "Chitin Block", Type = "Blocks", Price = 2068, ImageId = "rbxassetid://REPLACE_04_ALIEN_WORLD_CHITINBLOCK_IMAGE_ID", ProductID = "REPLACE_04_ALIEN_WORLD_CHITINBLOCK_PRODUCT_ID", Unlimited = false, Chance = 80, StockAmount = { Min = 1, Max = 7 }, Health = 18063 },
+	XenostoneBlock = { DisplayName = "Xenostone Block", Type = "Blocks", Price = 4240, ImageId = "rbxassetid://REPLACE_04_ALIEN_WORLD_XENOSTONEBLOCK_IMAGE_ID", ProductID = "REPLACE_04_ALIEN_WORLD_XENOSTONEBLOCK_PRODUCT_ID", Unlimited = false, Chance = 60, StockAmount = { Min = 1, Max = 7 }, Health = 25500 },
+	BioalloyBlock = { DisplayName = "Bioalloy Block", Type = "Blocks", Price = 8692, ImageId = "rbxassetid://REPLACE_04_ALIEN_WORLD_BIOALLOYBLOCK_IMAGE_ID", ProductID = "REPLACE_04_ALIEN_WORLD_BIOALLOYBLOCK_PRODUCT_ID", Unlimited = false, Chance = 40, StockAmount = { Min = 1, Max = 7 }, Health = 32938 },
+	RelicShieldBlock = { DisplayName = "Relic Shield Block", Type = "Blocks", Price = 17819, ImageId = "rbxassetid://REPLACE_04_ALIEN_WORLD_RELICSHIELDBLOCK_IMAGE_ID", ProductID = "REPLACE_04_ALIEN_WORLD_RELICSHIELDBLOCK_PRODUCT_ID", Unlimited = false, Chance = 30, StockAmount = { Min = 1, Max = 7 }, Health = 40375 },
+	PhaseCrystalBlock = { DisplayName = "Phase Crystal Block", Type = "Blocks", Price = 36529, ImageId = "rbxassetid://REPLACE_04_ALIEN_WORLD_PHASECRYSTALBLOCK_IMAGE_ID", ProductID = "REPLACE_04_ALIEN_WORLD_PHASECRYSTALBLOCK_PRODUCT_ID", Unlimited = false, Chance = 20, StockAmount = { Min = 1, Max = 7 }, Health = 47813 },
+	StarhiveCoreBlock = { DisplayName = "Starhive Core Block", Type = "Blocks", Price = 74884, ImageId = "rbxassetid://REPLACE_04_ALIEN_WORLD_STARHIVECOREBLOCK_IMAGE_ID", ProductID = "REPLACE_04_ALIEN_WORLD_STARHIVECOREBLOCK_PRODUCT_ID", Unlimited = false, Chance = 10, StockAmount = { Min = 1, Max = 7 }, Health = 55250 },
+
+	-- TURRETS
+	SporeDartTurret = { DisplayName = "Spore Dart Turret", Type = "Turrets", Price = 8071, ImageId = "rbxassetid://REPLACE_04_ALIEN_WORLD_SPOREDARTTURRET_IMAGE_ID", ProductID = "REPLACE_04_ALIEN_WORLD_SPOREDARTTURRET_PRODUCT_ID", Unlimited = false, Chance = 100, StockAmount = { Min = 1, Max = 4 }, Damage = 8500, Range = 30, FireRate = 2, Health = 17000 },
+	XenoPulseTurret = { DisplayName = "Xeno Pulse Turret", Type = "Turrets", Price = 17354, ImageId = "rbxassetid://REPLACE_04_ALIEN_WORLD_XENOPULSETURRET_IMAGE_ID", ProductID = "REPLACE_04_ALIEN_WORLD_XENOPULSETURRET_PRODUCT_ID", Unlimited = false, Chance = 80, StockAmount = { Min = 1, Max = 4 }, Damage = 17000, Range = 32.5, FireRate = 1.88, Health = 26350 },
+	BioacidProjector = { DisplayName = "Bioacid Projector", Type = "Turrets", Price = 37310, ImageId = "rbxassetid://REPLACE_04_ALIEN_WORLD_BIOACIDPROJECTOR_IMAGE_ID", ProductID = "REPLACE_04_ALIEN_WORLD_BIOACIDPROJECTOR_PRODUCT_ID", Unlimited = false, Chance = 60, StockAmount = { Min = 1, Max = 4 }, Damage = 29750, Range = 35, FireRate = 1.76, Health = 35700 },
+	RelicArcCannon = { DisplayName = "Relic Arc Cannon", Type = "Turrets", Price = 80217, ImageId = "rbxassetid://REPLACE_04_ALIEN_WORLD_RELICARCCANNON_IMAGE_ID", ProductID = "REPLACE_04_ALIEN_WORLD_RELICARCCANNON_PRODUCT_ID", Unlimited = false, Chance = 40, StockAmount = { Min = 1, Max = 4 }, Damage = 42500, Range = 37.5, FireRate = 1.64, Health = 45050 },
+	PhaseLance = { DisplayName = "Phase Lance", Type = "Turrets", Price = 172467, ImageId = "rbxassetid://REPLACE_04_ALIEN_WORLD_PHASELANCE_IMAGE_ID", ProductID = "REPLACE_04_ALIEN_WORLD_PHASELANCE_PRODUCT_ID", Unlimited = false, Chance = 30, StockAmount = { Min = 1, Max = 4 }, Damage = 68000, Range = 40, FireRate = 1.52, Health = 54400 },
+	StarhiveDisruptor = { DisplayName = "Starhive Disruptor", Type = "Turrets", Price = 370805, ImageId = "rbxassetid://REPLACE_04_ALIEN_WORLD_STARHIVEDISRUPTOR_IMAGE_ID", ProductID = "REPLACE_04_ALIEN_WORLD_STARHIVEDISRUPTOR_PRODUCT_ID", Unlimited = false, Chance = 20, StockAmount = { Min = 1, Max = 4 }, Damage = 119000, Range = 42.5, FireRate = 1.4, Health = 63750 },
+	WorldmindEmitter = { DisplayName = "Worldmind Emitter", Type = "Turrets", Price = 797231, ImageId = "rbxassetid://REPLACE_04_ALIEN_WORLD_WORLDMINDEMITTER_IMAGE_ID", ProductID = "REPLACE_04_ALIEN_WORLD_WORLDMINDEMITTER_PRODUCT_ID", Unlimited = false, Chance = 10, StockAmount = { Min = 1, Max = 4 }, Damage = 170000, Range = 45, FireRate = 1.28, Health = 73100 },
+}
+
+return ItemConfigurations

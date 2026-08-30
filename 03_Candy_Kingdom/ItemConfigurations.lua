@@ -1,0 +1,24 @@
+--!strict
+-- Candy Kingdom: exactly 7 standard blocks and 7 standard turrets.
+local ItemConfigurations = {
+
+	-- BLOCKS
+	WaferBlock = { DisplayName = "Wafer Block", Type = "Blocks", Price = 303, ImageId = "rbxassetid://REPLACE_03_CANDY_KINGDOM_WAFERBLOCK_IMAGE_ID", ProductID = "REPLACE_03_CANDY_KINGDOM_WAFERBLOCK_PRODUCT_ID", Unlimited = false, Chance = 100, StockAmount = { Min = 1, Max = 7 }, Health = 2000 },
+	GumdropBlock = { DisplayName = "Gumdrop Block", Type = "Blocks", Price = 621, ImageId = "rbxassetid://REPLACE_03_CANDY_KINGDOM_GUMDROPBLOCK_IMAGE_ID", ProductID = "REPLACE_03_CANDY_KINGDOM_GUMDROPBLOCK_PRODUCT_ID", Unlimited = false, Chance = 80, StockAmount = { Min = 1, Max = 7 }, Health = 3400 },
+	CandyCaneBlock = { DisplayName = "Candy Cane Block", Type = "Blocks", Price = 1274, ImageId = "rbxassetid://REPLACE_03_CANDY_KINGDOM_CANDYCANEBLOCK_IMAGE_ID", ProductID = "REPLACE_03_CANDY_KINGDOM_CANDYCANEBLOCK_PRODUCT_ID", Unlimited = false, Chance = 60, StockAmount = { Min = 1, Max = 7 }, Health = 4800 },
+	ChocolateBrick = { DisplayName = "Chocolate Brick", Type = "Blocks", Price = 2612, ImageId = "rbxassetid://REPLACE_03_CANDY_KINGDOM_CHOCOLATEBRICK_IMAGE_ID", ProductID = "REPLACE_03_CANDY_KINGDOM_CHOCOLATEBRICK_PRODUCT_ID", Unlimited = false, Chance = 40, StockAmount = { Min = 1, Max = 7 }, Health = 6200 },
+	CaramelArmorBlock = { DisplayName = "Caramel Armor Block", Type = "Blocks", Price = 5354, ImageId = "rbxassetid://REPLACE_03_CANDY_KINGDOM_CARAMELARMORBLOCK_IMAGE_ID", ProductID = "REPLACE_03_CANDY_KINGDOM_CARAMELARMORBLOCK_PRODUCT_ID", Unlimited = false, Chance = 30, StockAmount = { Min = 1, Max = 7 }, Health = 7600 },
+	RoyalIcingBlock = { DisplayName = "Royal Icing Block", Type = "Blocks", Price = 10975, ImageId = "rbxassetid://REPLACE_03_CANDY_KINGDOM_ROYALICINGBLOCK_IMAGE_ID", ProductID = "REPLACE_03_CANDY_KINGDOM_ROYALICINGBLOCK_PRODUCT_ID", Unlimited = false, Chance = 20, StockAmount = { Min = 1, Max = 7 }, Health = 9000 },
+	EverlastingSugarBlock = { DisplayName = "Everlasting Sugar Block", Type = "Blocks", Price = 22499, ImageId = "rbxassetid://REPLACE_03_CANDY_KINGDOM_EVERLASTINGSUGARBLOCK_IMAGE_ID", ProductID = "REPLACE_03_CANDY_KINGDOM_EVERLASTINGSUGARBLOCK_PRODUCT_ID", Unlimited = false, Chance = 10, StockAmount = { Min = 1, Max = 7 }, Health = 10400 },
+
+	-- TURRETS
+	SprinklePopper = { DisplayName = "Sprinkle Popper", Type = "Turrets", Price = 2425, ImageId = "rbxassetid://REPLACE_03_CANDY_KINGDOM_SPRINKLEPOPPER_IMAGE_ID", ProductID = "REPLACE_03_CANDY_KINGDOM_SPRINKLEPOPPER_PRODUCT_ID", Unlimited = false, Chance = 100, StockAmount = { Min = 1, Max = 4 }, Damage = 1600, Range = 30, FireRate = 2, Health = 3200 },
+	GumballRepeater = { DisplayName = "Gumball Repeater", Type = "Turrets", Price = 5214, ImageId = "rbxassetid://REPLACE_03_CANDY_KINGDOM_GUMBALLREPEATER_IMAGE_ID", ProductID = "REPLACE_03_CANDY_KINGDOM_GUMBALLREPEATER_PRODUCT_ID", Unlimited = false, Chance = 80, StockAmount = { Min = 1, Max = 4 }, Damage = 3200, Range = 32.5, FireRate = 1.88, Health = 4960 },
+	LicoriceLauncher = { DisplayName = "Licorice Launcher", Type = "Turrets", Price = 11210, ImageId = "rbxassetid://REPLACE_03_CANDY_KINGDOM_LICORICELAUNCHER_IMAGE_ID", ProductID = "REPLACE_03_CANDY_KINGDOM_LICORICELAUNCHER_PRODUCT_ID", Unlimited = false, Chance = 60, StockAmount = { Min = 1, Max = 4 }, Damage = 5600, Range = 35, FireRate = 1.76, Health = 6720 },
+	CaramelCannon = { DisplayName = "Caramel Cannon", Type = "Turrets", Price = 24102, ImageId = "rbxassetid://REPLACE_03_CANDY_KINGDOM_CARAMELCANNON_IMAGE_ID", ProductID = "REPLACE_03_CANDY_KINGDOM_CARAMELCANNON_PRODUCT_ID", Unlimited = false, Chance = 40, StockAmount = { Min = 1, Max = 4 }, Damage = 8000, Range = 37.5, FireRate = 1.64, Health = 8480 },
+	SodaFizzMortar = { DisplayName = "Soda Fizz Mortar", Type = "Turrets", Price = 51819, ImageId = "rbxassetid://REPLACE_03_CANDY_KINGDOM_SODAFIZZMORTAR_IMAGE_ID", ProductID = "REPLACE_03_CANDY_KINGDOM_SODAFIZZMORTAR_PRODUCT_ID", Unlimited = false, Chance = 30, StockAmount = { Min = 1, Max = 4 }, Damage = 12800, Range = 40, FireRate = 1.52, Health = 10240 },
+	RoyalCandyBeam = { DisplayName = "Royal Candy Beam", Type = "Turrets", Price = 111412, ImageId = "rbxassetid://REPLACE_03_CANDY_KINGDOM_ROYALCANDYBEAM_IMAGE_ID", ProductID = "REPLACE_03_CANDY_KINGDOM_ROYALCANDYBEAM_PRODUCT_ID", Unlimited = false, Chance = 20, StockAmount = { Min = 1, Max = 4 }, Damage = 22400, Range = 42.5, FireRate = 1.4, Health = 12000 },
+	EverlastingJawbreaker = { DisplayName = "Everlasting Jawbreaker", Type = "Turrets", Price = 239535, ImageId = "rbxassetid://REPLACE_03_CANDY_KINGDOM_EVERLASTINGJAWBREAKER_IMAGE_ID", ProductID = "REPLACE_03_CANDY_KINGDOM_EVERLASTINGJAWBREAKER_PRODUCT_ID", Unlimited = false, Chance = 10, StockAmount = { Min = 1, Max = 4 }, Damage = 32000, Range = 45, FireRate = 1.28, Health = 13760 },
+}
+
+return ItemConfigurations

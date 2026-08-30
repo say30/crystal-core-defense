@@ -1,0 +1,24 @@
+--!strict
+-- Pirate Cove: exactly 7 standard blocks and 7 standard turrets.
+local ItemConfigurations = {
+
+	-- BLOCKS
+	DriftwoodBlock = { DisplayName = "Driftwood Block", Type = "Blocks", Price = 91, ImageId = "rbxassetid://REPLACE_02_PIRATE_COVE_DRIFTWOODBLOCK_IMAGE_ID", ProductID = "REPLACE_02_PIRATE_COVE_DRIFTWOODBLOCK_PRODUCT_ID", Unlimited = false, Chance = 100, StockAmount = { Min = 1, Max = 7 }, Health = 375 },
+	OakHullBlock = { DisplayName = "Oak Hull Block", Type = "Blocks", Price = 186, ImageId = "rbxassetid://REPLACE_02_PIRATE_COVE_OAKHULLBLOCK_IMAGE_ID", ProductID = "REPLACE_02_PIRATE_COVE_OAKHULLBLOCK_PRODUCT_ID", Unlimited = false, Chance = 80, StockAmount = { Min = 1, Max = 7 }, Health = 638 },
+	IronboundCrateBlock = { DisplayName = "Ironbound Crate Block", Type = "Blocks", Price = 382, ImageId = "rbxassetid://REPLACE_02_PIRATE_COVE_IRONBOUNDCRATEBLOCK_IMAGE_ID", ProductID = "REPLACE_02_PIRATE_COVE_IRONBOUNDCRATEBLOCK_PRODUCT_ID", Unlimited = false, Chance = 60, StockAmount = { Min = 1, Max = 7 }, Health = 900 },
+	CoralstoneBlock = { DisplayName = "Coralstone Block", Type = "Blocks", Price = 782, ImageId = "rbxassetid://REPLACE_02_PIRATE_COVE_CORALSTONEBLOCK_IMAGE_ID", ProductID = "REPLACE_02_PIRATE_COVE_CORALSTONEBLOCK_PRODUCT_ID", Unlimited = false, Chance = 40, StockAmount = { Min = 1, Max = 7 }, Health = 1163 },
+	CannonplateBlock = { DisplayName = "Cannonplate Block", Type = "Blocks", Price = 1604, ImageId = "rbxassetid://REPLACE_02_PIRATE_COVE_CANNONPLATEBLOCK_IMAGE_ID", ProductID = "REPLACE_02_PIRATE_COVE_CANNONPLATEBLOCK_PRODUCT_ID", Unlimited = false, Chance = 30, StockAmount = { Min = 1, Max = 7 }, Health = 1425 },
+	CursedGoldBlock = { DisplayName = "Cursed Gold Block", Type = "Blocks", Price = 3288, ImageId = "rbxassetid://REPLACE_02_PIRATE_COVE_CURSEDGOLDBLOCK_IMAGE_ID", ProductID = "REPLACE_02_PIRATE_COVE_CURSEDGOLDBLOCK_PRODUCT_ID", Unlimited = false, Chance = 20, StockAmount = { Min = 1, Max = 7 }, Health = 1688 },
+	LeviathanHullBlock = { DisplayName = "Leviathan Hull Block", Type = "Blocks", Price = 6741, ImageId = "rbxassetid://REPLACE_02_PIRATE_COVE_LEVIATHANHULLBLOCK_IMAGE_ID", ProductID = "REPLACE_02_PIRATE_COVE_LEVIATHANHULLBLOCK_PRODUCT_ID", Unlimited = false, Chance = 10, StockAmount = { Min = 1, Max = 7 }, Health = 1950 },
+
+	-- TURRETS
+	DeckGun = { DisplayName = "Deck Gun", Type = "Turrets", Price = 727, ImageId = "rbxassetid://REPLACE_02_PIRATE_COVE_DECKGUN_IMAGE_ID", ProductID = "REPLACE_02_PIRATE_COVE_DECKGUN_PRODUCT_ID", Unlimited = false, Chance = 100, StockAmount = { Min = 1, Max = 4 }, Damage = 300, Range = 30, FireRate = 2, Health = 600 },
+	TwinFlintlockTurret = { DisplayName = "Twin Flintlock Turret", Type = "Turrets", Price = 1562, ImageId = "rbxassetid://REPLACE_02_PIRATE_COVE_TWINFLINTLOCKTURRET_IMAGE_ID", ProductID = "REPLACE_02_PIRATE_COVE_TWINFLINTLOCKTURRET_PRODUCT_ID", Unlimited = false, Chance = 80, StockAmount = { Min = 1, Max = 4 }, Damage = 600, Range = 32.5, FireRate = 1.88, Health = 930 },
+	HarpoonLauncher = { DisplayName = "Harpoon Launcher", Type = "Turrets", Price = 3359, ImageId = "rbxassetid://REPLACE_02_PIRATE_COVE_HARPOONLAUNCHER_IMAGE_ID", ProductID = "REPLACE_02_PIRATE_COVE_HARPOONLAUNCHER_PRODUCT_ID", Unlimited = false, Chance = 60, StockAmount = { Min = 1, Max = 4 }, Damage = 1050, Range = 35, FireRate = 1.76, Health = 1260 },
+	PowderKegMortar = { DisplayName = "Powder Keg Mortar", Type = "Turrets", Price = 7221, ImageId = "rbxassetid://REPLACE_02_PIRATE_COVE_POWDERKEGMORTAR_IMAGE_ID", ProductID = "REPLACE_02_PIRATE_COVE_POWDERKEGMORTAR_PRODUCT_ID", Unlimited = false, Chance = 40, StockAmount = { Min = 1, Max = 4 }, Damage = 1500, Range = 37.5, FireRate = 1.64, Health = 1590 },
+	BroadsideCannon = { DisplayName = "Broadside Cannon", Type = "Turrets", Price = 15526, ImageId = "rbxassetid://REPLACE_02_PIRATE_COVE_BROADSIDECANNON_IMAGE_ID", ProductID = "REPLACE_02_PIRATE_COVE_BROADSIDECANNON_PRODUCT_ID", Unlimited = false, Chance = 30, StockAmount = { Min = 1, Max = 4 }, Damage = 2400, Range = 40, FireRate = 1.52, Health = 1920 },
+	TempestBallista = { DisplayName = "Tempest Ballista", Type = "Turrets", Price = 33380, ImageId = "rbxassetid://REPLACE_02_PIRATE_COVE_TEMPESTBALLISTA_IMAGE_ID", ProductID = "REPLACE_02_PIRATE_COVE_TEMPESTBALLISTA_PRODUCT_ID", Unlimited = false, Chance = 20, StockAmount = { Min = 1, Max = 4 }, Damage = 4200, Range = 42.5, FireRate = 1.4, Health = 2250 },
+	LeviathanBreaker = { DisplayName = "Leviathan Breaker", Type = "Turrets", Price = 71768, ImageId = "rbxassetid://REPLACE_02_PIRATE_COVE_LEVIATHANBREAKER_IMAGE_ID", ProductID = "REPLACE_02_PIRATE_COVE_LEVIATHANBREAKER_PRODUCT_ID", Unlimited = false, Chance = 10, StockAmount = { Min = 1, Max = 4 }, Damage = 6000, Range = 45, FireRate = 1.28, Health = 2580 },
+}
+
+return ItemConfigurations

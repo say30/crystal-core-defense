@@ -1,0 +1,9 @@
+# Temporary Roblox Studio lock files
+*.rbxl.lock
+*.rbxlx.lock
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+

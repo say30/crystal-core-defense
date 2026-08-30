@@ -1,0 +1,6 @@
+01_Frozen_Citadel: 100 waves, 24 enemies, 7 blocks, 7 turrets, returns OK, protected names absent
+02_Pirate_Cove: 100 waves, 24 enemies, 7 blocks, 7 turrets, returns OK, protected names absent
+03_Candy_Kingdom: 100 waves, 24 enemies, 7 blocks, 7 turrets, returns OK, protected names absent
+04_Alien_World: 100 waves, 24 enemies, 7 blocks, 7 turrets, returns OK, protected names absent
+05_Mars_Colony: 100 waves, 24 enemies, 7 blocks, 7 turrets, returns OK, protected names absent
+06_Crystal_Dimension: 100 waves, 24 enemies, 7 blocks, 7 turrets, returns OK, protected names absent
