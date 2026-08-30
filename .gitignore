@@ -7,3 +7,6 @@
 Thumbs.db
 .vscode/
 
+# Temporary extraction attempts (the validated export is GAME_SOURCE/)
+GAME_CURRENT/
+GAME_EXPORT/
